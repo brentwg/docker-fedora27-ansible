@@ -1,5 +1,7 @@
 # Fedora 27 Ansible Test Image
 
+[![Docker Automated build](https://img.shields.io/docker/automated/brentwg/docker-fedora27-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/brentwg/docker-fedora27-ansible/)
+
 Fedora 27 Docker container for Ansible playbook and role testing. Everything which follows borrows *extensively* from the wise examples of Jeff Geerling. He is an amazing teacher. Look him up someday.
 
 ## Build Instructions
