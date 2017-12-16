@@ -1,4 +1,4 @@
-FROM fedora:24
+FROM fedora:27
 LABEL maintainer="brentwg"
 ENV container=docker
 
