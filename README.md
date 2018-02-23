@@ -36,6 +36,4 @@ docker exec --tty [container_id] env TERM=xterm ansible-playbook /path/to/ansibl
 ```  
 
 ## Notes
-Follow the example of Jeff Geerling, I use Docker to test Ansible playbooks on multiple OSes using CI tools such as Travis and Jenkins. This container provides provides the capability to test roles and playbooks using Ansible - which runs inside the container.  
-
-> **Disclaimer**: Not intended for use in genuine production environments. I use this for purely development/test/amusement purposes.
+Following the example of Jeff Geerling, I use Docker to test Ansible playbooks on multiple OSes using CI tools such as Travis and Jenkins. This container provides provides the capability to test roles and playbooks using Ansible - which runs inside the container.  
