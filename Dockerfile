@@ -21,6 +21,9 @@ RUN dnf makecache --timer \
       which \
       python2-dnf \
  && dnf clean all
+ 
+# Create brentwg user
+RUN useradd -ms /bin/bash brentwg
 
 # Disable requiretty.
 RUN sed -i -e 's/^\(Defaults\s*requiretty\)/#--- \1/'  /etc/sudoers
