@@ -23,3 +23,8 @@ script:
 
   # Verify Ansible is available in the container.
   - docker exec --tty test-container env TERM=xterm ansible --version
+  
+  # Ensure that brentwg user has been created
+  - docker exec --tty test-container env TERM=xterm grep brentwg /etc/passwd
+  - docker exec --tty test-container env TERM=xterm ls -al /home/brentwg
+  
